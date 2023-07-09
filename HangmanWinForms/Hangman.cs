@@ -16,6 +16,8 @@ namespace HangmanWinForms
 
             lblMessage.Text = "";
 
+            btnRESET.Enabled = false;
+
             SetTip();
         }
 
@@ -60,6 +62,7 @@ namespace HangmanWinForms
             UpdateNoose();
             lblMessage.Text = "";
             pnlButtons.Enabled = true;
+            btnRESET.Enabled = false;
 
             foreach (Button button in pnlButtons.Controls)
             {
@@ -114,7 +117,7 @@ namespace HangmanWinForms
 
         private void SetTip()
         {
-            lblTip.Text = secretWord.QuantityLetters.ToString() + " letters here:";
+            lblTip.Text = $"Tip: {secretWord.QuantityLetters.ToString()} letters";
         }
 
         private void GetParcialWord()
