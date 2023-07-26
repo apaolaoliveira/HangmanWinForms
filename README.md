@@ -27,6 +27,15 @@ Todas as palavras secretas são em inglês e fazem parte do universo da temátic
 
 <br>
 
+## Mídia
+
+<p float="left">
+  <img width="49%" alt="Jogando o jogo da forca e acertando a palavra secreta" title="Vitória" src="https://gcdnb.pbrd.co/images/EwOKyIh5dX5L.gif?o=1" />
+  <img width="49%" alt="Jogando o jogo da forca e errando a palavra secreta" title="Fracasso" src="https://gcdnb.pbrd.co/images/yZkKBFbUne4I.gif?o=1" />
+</p>
+
+<br>
+
 ## Como executar 
 
 *Pré-requisitos:* <a title="página da microsoft dotnet" href="https://dotnet.microsoft.com/download"> dotnet 6.0 </a> e <a title="página do git" href="https://git-scm.com/"> Git </a>  
